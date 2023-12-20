@@ -1,5 +1,6 @@
 body{
     background-color: rgb(238, 238, 238);
+    
 }
 
 header{ background-color: rgb(128, 128, 128);
@@ -12,4 +13,8 @@ header{ background-color: rgb(128, 128, 128);
     padding: .25em;
     margin: 1em;
     border-radius: .25em;
+}
+
+.text{
+    margin-left: 100pt;
 }
