@@ -18,9 +18,18 @@ header{ background-color: rgb(54, 126, 197);
 }
 
 .links {background-color: white;
+    text-decoration: none;
     padding: .25em;
     margin: 1em;
     border-radius: .25em;
+    transition: border 0.3s, padding 0.3s;
+    position: relative;
+}
+
+.links:hover {
+    border: 2px solid #333; /* Change the color and thickness as needed */
+    padding: 10px; /* Add padding to create space between the text and the border */
+    border-radius: 5px; /* Optional: Add rounded corners */
 }
 
 .text{
@@ -28,6 +37,8 @@ header{ background-color: rgb(54, 126, 197);
     margin-left: 50pt;
     z-index: 1;
 }
+
+
 
 .top {
     position: fixed;
@@ -42,9 +53,13 @@ header{ background-color: rgb(54, 126, 197);
 }
 
 .anchor {
+    color: white;
+    background-color: rgb(54, 126, 197);
     text-decoration: none;
     position: fixed;
     bottom: 5%;
     right: 5%;
     margin: 10px;
+    padding: .25em;
+    border-radius: .3em;
 }
